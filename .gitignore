@@ -16,6 +16,9 @@ models/*.onnx
 *.mp4
 *.ts
 *.mkv
+# '*.ts' above is meant for MPEG transport streams; it also matches TypeScript,
+# which silently kept the Angular front end out of the repo. Keep the sources.
+!src/Lens.Web/**/*.ts
 !samples/README.md
 
 # secrets
